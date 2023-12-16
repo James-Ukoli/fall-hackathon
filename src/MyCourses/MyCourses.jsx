@@ -5,6 +5,7 @@ function MyCourses() {
   return (
     <div>MyCourses</div>
   )
+  // this is a comment for deployment
 }
 
 export default MyCourses

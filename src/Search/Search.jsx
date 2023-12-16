@@ -1,11 +1,20 @@
 import React, { useState } from 'react';
 import NavBar from '../NavBar/NavBar';
-import CoursesList from '../Course/CoursesList';
 import './Search.css';
 import { useNavigate } from 'react-router-dom';
 import { courses } from "../data"
 //import data here
 
+
+{/* <div className="carousel-slide">
+<img src={course.image} alt={`Image ${index + 1}`} className="carousel-image" />
+
+<div className="carousel-desc-duo">
+<p className="carousel-title"><strong>{course.title}</strong></p><img src={dots} alt="dots" className="dot-menuu"/>
+<p className="carousel-instructor" style={{fontWeight: "700"}}><strong>{course.instructor}</strong></p>
+</div>
+
+</div> */}
 
 function Search({searchResults, setSearchResults, toBeSearched, setToBeSearched}) {
 
